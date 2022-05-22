@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    height: 100vh;
+}
+
+
+.formul1{
+    margin-top: 10%;
+   
+}
+
+
+
+.formul2, .formul3, .formul4, .formul5, .formul6{
+    justify-content: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 50px;
+}
+
+
+table{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.qualite{
+    padding-top: 10px
+}
+
+.formul1 button {
+    background-color:  #52cf18;
+    border: 2px solid  #52cf18;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.formul1 input{
+    border-radius: 5px; /* arrondir*/
+    border: 1px solid #52cf18;
+    text-align: center;
+    background-color: #f2f2f2;
+    outline: none;
+  }
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+footer{
+  background-color: #000; /*fond noir*/
+  color: #fff; /*couleur blanche de l'ecriture*/
+  padding: 5px 5px ;/*espacé l'étriture des bords haut/bas*/
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+footer h2{
+  font-family: 'playfair display', sans-serif; /*change police titre bas de pages*/
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.footer{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 40%;
+}
+
+.coordonnees{
+  margin-left: 10%;
+}
+
+/* Barre de navigation */
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.70);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+
+}
+
+nav img {
+	padding-left: 35px;
+	padding-top: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 22%;
+	height: 22%;
+}
+
+nav .onglets {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav .onglets p {
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px 10px;
+	padding-right: 20px;
+	padding-top: 50px;
+	cursor: pointer;
+}
+
+nav .onglets p a {
+	text-decoration: none;
+	color: white;
+}
+
+.fas{
+	color: white;
+	margin-right: 10px;
+}
+
+.ban {
+	width: 100%;
+	margin-top: 108px;
+}
+
+.bas{
+    margin-top:20%;
+}
+
+
+.aligne{
+  display: flex;
+}
